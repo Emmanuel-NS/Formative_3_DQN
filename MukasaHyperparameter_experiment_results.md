@@ -1,12 +1,14 @@
 # Hyperparameter experiments
 
-Member name: Mukasa
+Member name: Emmanuel Mukasa Simiyu
+
+Model folder: `models/Mukasa/`
 
 Environment: ALE/Pong-v5
 
-Each row changes **one** value from experiment 1. The seed stays 1. Every run is **120 episodes**. Compare each row with experiment 1 at episode 120. These values are different from Emmanuel-NS and from Henriette.
+Each row changes **one** value from experiment 1. The seed stays 1. Every run is **120 episodes**. Each row is compared with experiment 1 at episode 120. The baseline in this table is Mukasa's own experiment 1.
 
-The observed cells come from `models/Mukasa/experiment_XX/summary.json`.
+The numbers come from `models/Mukasa/experiment_XX/summary.json`.
 
 Best experiment: Experiment 5, gamma 0.99. Last-20 average -20.05, compared with experiment 1 at -20.25. The gap is 0.20. The best game in that run was 3–21. Experiment 3 had the best single game, 5–21, with a last-20 average of -20.10.
 

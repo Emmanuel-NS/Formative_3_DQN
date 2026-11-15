@@ -1,12 +1,14 @@
 # Hyperparameter experiments
 
-Member name: Henriette
+Member name: Henriette Utatsineza
+
+Model folder: `models/Henriette/`
 
 Environment: ALE/Pong-v5
 
-Each row changes **one** value from experiment 1. The seed stays 1. Every run is **120 episodes**. Compare each row with experiment 1 at episode 120. These values are different from Emmanuel-NS and from Mukasa.
+Each row changes **one** value from experiment 1. The seed stays 1. Every run is **120 episodes**. Each row is compared with experiment 1 at episode 120. The baseline in this table is Henriette's own experiment 1.
 
-The observed cells come from `models/Henriette/experiment_XX/summary.json`.
+The numbers come from `models/Henriette/experiment_XX/summary.json`.
 
 Best experiment: Experiment 6, batch size 8. Last-20 average -20.50, compared with experiment 1 at -20.65. The gap is 0.15. The best game in that run was 3–21.
 
