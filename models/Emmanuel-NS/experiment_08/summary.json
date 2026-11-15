@@ -1,0 +1,8 @@
+{
+  "episodes_completed": 120,
+  "total_steps": 134961,
+  "last_20_average_reward": -19.15,
+  "best_episode_reward": -16.0,
+  "best_checkpoint_episode": 100,
+  "best_checkpoint_last_20_average": -18.7
+}

@@ -1,0 +1,3 @@
+member: Emmanuel-NS
+experiment: 1
+source: C:\Users\PC\formative-3-dqn\models\Emmanuel-NS\experiment_01

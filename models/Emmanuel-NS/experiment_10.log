@@ -1,0 +1,133 @@
+experiment 10 started 2026-11-14T20:40:00.9553322+02:00
+Environment: ALE/Pong-v5
+Device: cpu
+Output: C:\Users\PC\formative-3-dqn\models\Emmanuel-NS\experiment_10
+Learning rate: 0.0001 | gamma: 0.99 | batch: 32
+Epsilon: 1.0 -> 0.05, decay 0.97 per episode
+Buffer: 5000 | learning starts: 1000 | train every: 4 | target update: 1000
+Episodes: 120
+Ctrl+C saves the log and the best model so far.
+Observation shape: (4, 84, 84) | actions: 6
+Episode    1 | score 1-21 | reward   -20.0 | length   960 | steps      960 | epsilon 1.000 | loss n/a
+Episode    2 | score 0-21 | reward   -21.0 | length   787 | steps     1747 | epsilon 0.970 | loss 0.0206
+Episode    3 | score 1-21 | reward   -20.0 | length  1156 | steps     2903 | epsilon 0.941 | loss 0.0243
+Episode    4 | score 1-21 | reward   -20.0 | length  1018 | steps     3921 | epsilon 0.913 | loss 0.0217
+Episode    5 | score 0-21 | reward   -21.0 | length   843 | steps     4764 | epsilon 0.885 | loss 0.0224
+Episode    6 | score 3-21 | reward   -18.0 | length  1023 | steps     5787 | epsilon 0.859 | loss 0.0235
+Episode    7 | score 0-21 | reward   -21.0 | length   849 | steps     6636 | epsilon 0.833 | loss 0.0207
+Episode    8 | score 0-21 | reward   -21.0 | length   762 | steps     7398 | epsilon 0.808 | loss 0.0215
+Episode    9 | score 1-21 | reward   -20.0 | length   902 | steps     8300 | epsilon 0.784 | loss 0.0244
+Episode   10 | score 0-21 | reward   -21.0 | length   762 | steps     9062 | epsilon 0.760 | loss 0.0245
+Episode   11 | score 0-21 | reward   -21.0 | length   905 | steps     9967 | epsilon 0.737 | loss 0.0253
+Episode   12 | score 1-21 | reward   -20.0 | length   987 | steps    10954 | epsilon 0.715 | loss 0.0224
+Episode   13 | score 2-21 | reward   -19.0 | length  1022 | steps    11976 | epsilon 0.694 | loss 0.0254
+Episode   14 | score 0-21 | reward   -21.0 | length   787 | steps    12763 | epsilon 0.673 | loss 0.0266
+Episode   15 | score 1-21 | reward   -20.0 | length   878 | steps    13641 | epsilon 0.653 | loss 0.0227
+Episode   16 | score 0-21 | reward   -21.0 | length   758 | steps    14399 | epsilon 0.633 | loss 0.0209
+Episode   17 | score 0-21 | reward   -21.0 | length   785 | steps    15184 | epsilon 0.614 | loss 0.0243
+Episode   18 | score 1-21 | reward   -20.0 | length   903 | steps    16087 | epsilon 0.596 | loss 0.0248
+Episode   19 | score 0-21 | reward   -21.0 | length   848 | steps    16935 | epsilon 0.578 | loss 0.0232
+Episode   20 | score 0-21 | reward   -21.0 | length   882 | steps    17817 | epsilon 0.561 | loss 0.0221
+Episode   21 | score 2-21 | reward   -19.0 | length  1009 | steps    18826 | epsilon 0.544 | loss 0.0228
+Episode   22 | score 1-21 | reward   -20.0 | length   836 | steps    19662 | epsilon 0.527 | loss 0.0196
+Episode   23 | score 0-21 | reward   -21.0 | length   820 | steps    20482 | epsilon 0.512 | loss 0.0219
+Episode   24 | score 2-21 | reward   -19.0 | length  1135 | steps    21617 | epsilon 0.496 | loss 0.0175
+Episode   25 | score 0-21 | reward   -21.0 | length   818 | steps    22435 | epsilon 0.481 | loss 0.0175
+Episode   26 | score 3-21 | reward   -18.0 | length  1080 | steps    23515 | epsilon 0.467 | loss 0.0156
+Episode   27 | score 0-21 | reward   -21.0 | length   884 | steps    24399 | epsilon 0.453 | loss 0.0189
+Episode   28 | score 0-21 | reward   -21.0 | length   822 | steps    25221 | epsilon 0.439 | loss 0.0155
+Episode   29 | score 0-21 | reward   -21.0 | length   877 | steps    26098 | epsilon 0.426 | loss 0.0160
+Episode   30 | score 0-21 | reward   -21.0 | length   757 | steps    26855 | epsilon 0.413 | loss 0.0164
+Episode   31 | score 1-21 | reward   -20.0 | length   836 | steps    27691 | epsilon 0.401 | loss 0.0164
+Episode   32 | score 0-21 | reward   -21.0 | length   822 | steps    28513 | epsilon 0.389 | loss 0.0162
+Episode   33 | score 0-21 | reward   -21.0 | length   818 | steps    29331 | epsilon 0.377 | loss 0.0145
+Episode   34 | score 0-21 | reward   -21.0 | length  1001 | steps    30332 | epsilon 0.366 | loss 0.0141
+Episode   35 | score 2-21 | reward   -19.0 | length   990 | steps    31322 | epsilon 0.355 | loss 0.0107
+Episode   36 | score 1-21 | reward   -20.0 | length   841 | steps    32163 | epsilon 0.344 | loss 0.0102
+Episode   37 | score 1-21 | reward   -20.0 | length  1034 | steps    33197 | epsilon 0.334 | loss 0.0124
+Episode   38 | score 1-21 | reward   -20.0 | length   942 | steps    34139 | epsilon 0.324 | loss 0.0126
+Episode   39 | score 0-21 | reward   -21.0 | length   853 | steps    34992 | epsilon 0.314 | loss 0.0120
+Episode   40 | score 0-21 | reward   -21.0 | length   969 | steps    35961 | epsilon 0.305 | loss 0.0133
+Episode   41 | score 0-21 | reward   -21.0 | length   883 | steps    36844 | epsilon 0.296 | loss 0.0141
+Episode   42 | score 0-21 | reward   -21.0 | length   880 | steps    37724 | epsilon 0.287 | loss 0.0124
+Episode   43 | score 1-21 | reward   -20.0 | length  1151 | steps    38875 | epsilon 0.278 | loss 0.0131
+Episode   44 | score 2-21 | reward   -19.0 | length  1053 | steps    39928 | epsilon 0.270 | loss 0.0129
+Episode   45 | score 2-21 | reward   -19.0 | length   933 | steps    40861 | epsilon 0.262 | loss 0.0125
+Episode   46 | score 1-21 | reward   -20.0 | length   897 | steps    41758 | epsilon 0.254 | loss 0.0122
+Episode   47 | score 0-21 | reward   -21.0 | length   907 | steps    42665 | epsilon 0.246 | loss 0.0120
+Episode   48 | score 0-21 | reward   -21.0 | length   764 | steps    43429 | epsilon 0.239 | loss 0.0112
+Episode   49 | score 0-21 | reward   -21.0 | length   758 | steps    44187 | epsilon 0.232 | loss 0.0076
+Episode   50 | score 0-21 | reward   -21.0 | length   825 | steps    45012 | epsilon 0.225 | loss 0.0083
+Episode   51 | score 2-21 | reward   -19.0 | length  1023 | steps    46035 | epsilon 0.218 | loss 0.0082
+Episode   52 | score 1-21 | reward   -20.0 | length   862 | steps    46897 | epsilon 0.212 | loss 0.0071
+Episode   53 | score 0-21 | reward   -21.0 | length   841 | steps    47738 | epsilon 0.205 | loss 0.0073
+Episode   54 | score 1-21 | reward   -20.0 | length   916 | steps    48654 | epsilon 0.199 | loss 0.0074
+Episode   55 | score 0-21 | reward   -21.0 | length   825 | steps    49479 | epsilon 0.193 | loss 0.0078
+Episode   56 | score 0-21 | reward   -21.0 | length  1006 | steps    50485 | epsilon 0.187 | loss 0.0080
+Episode   57 | score 1-21 | reward   -20.0 | length  1083 | steps    51568 | epsilon 0.182 | loss 0.0079
+Episode   58 | score 1-21 | reward   -20.0 | length   936 | steps    52504 | epsilon 0.176 | loss 0.0073
+Episode   59 | score 0-21 | reward   -21.0 | length   836 | steps    53340 | epsilon 0.171 | loss 0.0084
+Episode   60 | score 1-21 | reward   -20.0 | length   903 | steps    54243 | epsilon 0.166 | loss 0.0062
+Episode   61 | score 1-21 | reward   -20.0 | length  1039 | steps    55282 | epsilon 0.161 | loss 0.0082
+Episode   62 | score 0-21 | reward   -21.0 | length   759 | steps    56041 | epsilon 0.156 | loss 0.0076
+Episode   63 | score 1-21 | reward   -20.0 | length  1034 | steps    57075 | epsilon 0.151 | loss 0.0081
+Episode   64 | score 1-21 | reward   -20.0 | length  1036 | steps    58111 | epsilon 0.147 | loss 0.0084
+Episode   65 | score 0-21 | reward   -21.0 | length   822 | steps    58933 | epsilon 0.142 | loss 0.0077
+Episode   66 | score 0-21 | reward   -21.0 | length   937 | steps    59870 | epsilon 0.138 | loss 0.0072
+Episode   67 | score 1-21 | reward   -20.0 | length   891 | steps    60761 | epsilon 0.134 | loss 0.0076
+Episode   68 | score 0-21 | reward   -21.0 | length   884 | steps    61645 | epsilon 0.130 | loss 0.0065
+Episode   69 | score 1-21 | reward   -20.0 | length  1005 | steps    62650 | epsilon 0.126 | loss 0.0080
+Episode   70 | score 0-21 | reward   -21.0 | length   819 | steps    63469 | epsilon 0.122 | loss 0.0066
+Episode   71 | score 0-21 | reward   -21.0 | length  1029 | steps    64498 | epsilon 0.119 | loss 0.0058
+Episode   72 | score 0-21 | reward   -21.0 | length   882 | steps    65380 | epsilon 0.115 | loss 0.0054
+Episode   73 | score 1-21 | reward   -20.0 | length   912 | steps    66292 | epsilon 0.112 | loss 0.0054
+Episode   74 | score 0-21 | reward   -21.0 | length   848 | steps    67140 | epsilon 0.108 | loss 0.0051
+Episode   75 | score 0-21 | reward   -21.0 | length   885 | steps    68025 | epsilon 0.105 | loss 0.0055
+Episode   76 | score 0-21 | reward   -21.0 | length   847 | steps    68872 | epsilon 0.102 | loss 0.0054
+Episode   77 | score 6-21 | reward   -15.0 | length  1434 | steps    70306 | epsilon 0.099 | loss 0.0065
+Episode   78 | score 1-21 | reward   -20.0 | length   887 | steps    71193 | epsilon 0.096 | loss 0.0076
+Episode   79 | score 0-21 | reward   -21.0 | length   905 | steps    72098 | epsilon 0.093 | loss 0.0074
+Episode   80 | score 0-21 | reward   -21.0 | length   819 | steps    72917 | epsilon 0.090 | loss 0.0081
+Episode   81 | score 1-21 | reward   -20.0 | length  1037 | steps    73954 | epsilon 0.087 | loss 0.0075
+Episode   82 | score 0-21 | reward   -21.0 | length   879 | steps    74833 | epsilon 0.085 | loss 0.0074
+Episode   83 | score 0-21 | reward   -21.0 | length   823 | steps    75656 | epsilon 0.082 | loss 0.0050
+Episode   84 | score 0-21 | reward   -21.0 | length   823 | steps    76479 | epsilon 0.080 | loss 0.0044
+Episode   85 | score 0-21 | reward   -21.0 | length   941 | steps    77420 | epsilon 0.077 | loss 0.0044
+Episode   86 | score 0-21 | reward   -21.0 | length  1106 | steps    78526 | epsilon 0.075 | loss 0.0044
+Episode   87 | score 2-21 | reward   -19.0 | length  1396 | steps    79922 | epsilon 0.073 | loss 0.0047
+Episode   88 | score 0-21 | reward   -21.0 | length   878 | steps    80800 | epsilon 0.071 | loss 0.0067
+Episode   89 | score 0-21 | reward   -21.0 | length   759 | steps    81559 | epsilon 0.069 | loss 0.0055
+Episode   90 | score 2-21 | reward   -19.0 | length  1016 | steps    82575 | epsilon 0.066 | loss 0.0062
+Episode   91 | score 1-21 | reward   -20.0 | length  1056 | steps    83631 | epsilon 0.064 | loss 0.0064
+Episode   92 | score 1-21 | reward   -20.0 | length  1004 | steps    84635 | epsilon 0.063 | loss 0.0059
+Episode   93 | score 3-21 | reward   -18.0 | length  1345 | steps    85980 | epsilon 0.061 | loss 0.0075
+Episode   94 | score 1-21 | reward   -20.0 | length  1565 | steps    87545 | epsilon 0.059 | loss 0.0091
+Episode   95 | score 2-21 | reward   -19.0 | length  1354 | steps    88899 | epsilon 0.057 | loss 0.0098
+Episode   96 | score 2-21 | reward   -19.0 | length  1068 | steps    89967 | epsilon 0.055 | loss 0.0090
+Episode   97 | score 0-21 | reward   -21.0 | length  1003 | steps    90970 | epsilon 0.054 | loss 0.0085
+Episode   98 | score 0-21 | reward   -21.0 | length   880 | steps    91850 | epsilon 0.052 | loss 0.0081
+Episode   99 | score 0-21 | reward   -21.0 | length  1085 | steps    92935 | epsilon 0.051 | loss 0.0081
+Episode  100 | score 6-21 | reward   -15.0 | length  1600 | steps    94535 | epsilon 0.050 | loss 0.0087
+Episode  101 | score 1-21 | reward   -20.0 | length   955 | steps    95490 | epsilon 0.050 | loss 0.0077
+Episode  102 | score 4-21 | reward   -17.0 | length  1450 | steps    96940 | epsilon 0.050 | loss 0.0069
+Episode  103 | score 1-21 | reward   -20.0 | length  1101 | steps    98041 | epsilon 0.050 | loss 0.0077
+Episode  104 | score 0-21 | reward   -21.0 | length  1104 | steps    99145 | epsilon 0.050 | loss 0.0079
+Episode  105 | score 2-21 | reward   -19.0 | length  1150 | steps   100295 | epsilon 0.050 | loss 0.0086
+Episode  106 | score 1-21 | reward   -20.0 | length  1216 | steps   101511 | epsilon 0.050 | loss 0.0093
+Episode  107 | score 3-21 | reward   -18.0 | length  1353 | steps   102864 | epsilon 0.050 | loss 0.0094
+Episode  108 | score 0-21 | reward   -21.0 | length   904 | steps   103768 | epsilon 0.050 | loss 0.0095
+Episode  109 | score 0-21 | reward   -21.0 | length  1056 | steps   104824 | epsilon 0.050 | loss 0.0097
+Episode  110 | score 0-21 | reward   -21.0 | length   762 | steps   105586 | epsilon 0.050 | loss 0.0083
+Episode  111 | score 1-21 | reward   -20.0 | length  1157 | steps   106743 | epsilon 0.050 | loss 0.0083
+Episode  112 | score 0-21 | reward   -21.0 | length  1347 | steps   108090 | epsilon 0.050 | loss 0.0068
+Episode  113 | score 0-21 | reward   -21.0 | length  1147 | steps   109237 | epsilon 0.050 | loss 0.0065
+Episode  114 | score 0-21 | reward   -21.0 | length  1064 | steps   110301 | epsilon 0.050 | loss 0.0068
+Episode  115 | score 4-21 | reward   -17.0 | length  1414 | steps   111715 | epsilon 0.050 | loss 0.0079
+Episode  116 | score 0-21 | reward   -21.0 | length   992 | steps   112707 | epsilon 0.050 | loss 0.0087
+Episode  117 | score 1-21 | reward   -20.0 | length  1083 | steps   113790 | epsilon 0.050 | loss 0.0091
+Episode  118 | score 0-21 | reward   -21.0 | length   918 | steps   114708 | epsilon 0.050 | loss 0.0088
+Episode  119 | score 7-21 | reward   -14.0 | length  1611 | steps   116319 | epsilon 0.050 | loss 0.0088
+Episode  120 | score 3-21 | reward   -18.0 | length  1268 | steps   117587 | epsilon 0.050 | loss 0.0088
+Average reward over the last 20 episodes: -19.60 | best episode reward: -14.0
+Model: C:\Users\PC\formative-3-dqn\models\Emmanuel-NS\experiment_10\dqn_model.pth
+Put the last-20 average and a sentence about what you saw into the experiment table.
