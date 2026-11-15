@@ -141,11 +141,9 @@ This opens the Pong window and plays 3 games. The agent is greedy: it always tak
 uv run python play.py --games 5 --model dqn_model.pth
 ```
 
-Record the window for the README video (Windows Game Bar: Win+Alt+R, or Xbox Game Bar). Save the file as `demo/best_agent.mp4` and link it here once it exists:
+Best agent playing Pong: https://drive.google.com/file/d/1FCgffpthE-dl_0L3N8E8slXlpYOrQObJ/view?usp=drive_link
 
-Best agent playing Pong: add `demo/best_agent.mp4` after the best training run.
-
-Until that file exists, the live command above is the demonstration. The presentation uses this same command, not a recording.
+The presentation uses the live command above, not the recording.
 
 ## Repository layout
 
