@@ -1,0 +1,18 @@
+{
+  "env": "ALE/Pong-v5",
+  "member": "Mukasa",
+  "experiment": 10,
+  "episodes": 120,
+  "learning_rate": 0.00025,
+  "gamma": 0.95,
+  "batch_size": 64,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.1,
+  "epsilon_decay": 0.98,
+  "buffer_size": 5000,
+  "learning_starts": 1000,
+  "train_every": 4,
+  "target_update": 1000,
+  "seed": 1,
+  "device": "cuda"
+}
