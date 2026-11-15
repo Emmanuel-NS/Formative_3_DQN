@@ -481,7 +481,6 @@ def train(args):
             f"best episode reward: {summary['best_episode_reward']:.1f}"
         )
         print(f"Model: {model_path}")
-        print("Put the last-20 average and a sentence about what you saw into the experiment table.")
 
     if args.promote and model_path.exists():
         promote_folder(output_dir, args.member, args.experiment)

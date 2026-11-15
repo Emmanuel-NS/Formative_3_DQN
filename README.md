@@ -107,17 +107,7 @@ uv run AutoROM --accept-license
 
 Run this from the project folder. `--promote` copies the run into `dqn_model.pth` and `plots/`, which is what the submission shows for the best experiment.
 
-On this PC (no NVIDIA GPU) one 400-episode experiment takes roughly 4 hours, because every update runs on the CPU. Experiments 5 and 6 used 250 episodes. Experiment 7 uses 200. Experiments 8 to 10 use 120. Plug the laptop in, then run:
-
-```powershell
-.\run_experiments.ps1
-```
-
-That script runs Emmanuel-NS experiments 1 through 10 in order, skips any experiment that already finished its episode budget, and keeps Windows awake until the window is closed. Ctrl+C stops the current run and still saves the log, the plot, and the best model so far. The remaining runs are:
-
-```powershell
-.\run_experiments.ps1 -StartAt 8 -Episodes 120
-```
+On this PC (no NVIDIA GPU) one 400-episode experiment takes roughly 4 hours, because every update runs on the CPU. Emmanuel-NS experiments 1 to 3 used 400 episodes, experiment 4 stopped at 307, experiments 5 and 6 used 250, experiment 7 used 200, and experiments 8 to 10 used 120.
 
 One experiment by itself:
 
@@ -131,7 +121,7 @@ Other experiments omit `--promote`. After the 10 runs, copy the winner without t
 uv run python train.py --promote-from 1
 ```
 
-Change `1` to the winning experiment number. Use `--member "YourName"` so models go to `models/YourName/experiment_01/` and so on.
+For these results, experiment 1 is the one copied to `dqn_model.pth`. `--member Emmanuel-NS` stores a run in `models/Emmanuel-NS/`.
 
 A full Pong match on this PC (Intel i5-6300U, no NVIDIA GPU, 8 GB RAM) is slow. The script prints `Device: cpu`. On a machine with an NVIDIA GPU the same script prints `Device: cuda` and uses it. No code change is required. Ctrl+C stops training and still writes the log, the plot, and the best checkpoint reached so far.
 
@@ -183,19 +173,10 @@ Each group has 20 minutes: 10 to present and 10 for questions. Cameras stay on. 
 
 ## Presentation outline
 
-**Introduction (1 minute).** Pong, ALE/Pong-v5. The agent scores by getting the ball past the opponent. +1 for a point won, -1 for a point lost, game to 21.
-
-**DQN (2 minutes).** Walk the diagram above, not the source line by line.
-
-- The Q-network guesses the value of each action from four stacked frames.
-- The replay buffer is the memory the gradient step samples from.
-- The target network supplies the Bellman label and is copied from the online network every 1000 steps.
-- Epsilon-greedy is the exploration rule, and epsilon shrinks after every episode.
-- The loss is the squared difference between the online Q-value and the Bellman target. Adam updates the online network.
-
-**Experiments (2 minutes each).** Read your own table. Name the best row and the worst row. Say which single change helped or hurt, and why you kept the final settings. One run per setting is not a full statistical test. Treat a gap of a fraction of a point as noise.
-
-**Gameplay (2 minutes).** Run `uv run python play.py` live.
+- 1 minute: ALE/Pong-v5. One paddle, reward +1 or -1, first side to 21.
+- 2 minutes: the Q-network, replay buffer, target network, epsilon-greedy actions, and the Bellman loss in the diagram above.
+- 6 minutes: each member's own 10 experiments, from that member's results file.
+- 2 minutes: `uv run python play.py`.
 
 ## Fixed settings
 
@@ -210,4 +191,4 @@ These stay the same across the 10 experiments so the six requested hyperparamete
 | Target update | 1000 steps | The Bellman labels stay fixed between copies. |
 | Seed | 1 | Same start for every experiment. |
 | Reward clip | [-1, 1] | Keeps Q-values on one scale. |
-| Episodes | Written in the results note | The brief does not fix a count. Experiments 1 to 3 used 400. Experiment 4 stopped at 307. Experiments 5 and 6 used 250. Experiment 7 used 200. Experiments 8 to 10 use 120. Compare each row with experiment 1 at the same episode. |
+| Episodes | Written in the results note | The brief does not fix a count. Experiments 1 to 3 used 400. Experiment 4 stopped at 307. Experiments 5 and 6 used 250. Experiment 7 used 200. Experiments 8 to 10 used 120. Compare each row with experiment 1 at the same episode. |
